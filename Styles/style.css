@@ -1,0 +1,39 @@
+body {
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+p {
+	color: #555555;
+	font-size: 15px;
+}
+
+canvas {
+  border-radius: 12px;
+  border: 2px solid #555555;
+  padding: 0 0;
+}
+
+button {
+	color: white;
+	background-color: #555555;
+	font-size: 17px;
+	padding: 5px 10px;
+	margin-top: 0px;
+}
+
+#script-div {
+	margin: 20px 0 20px 0;
+	padding: 0 0;
+
+}
+
+#Header {
+	background-color: #3ed1e1;
+	padding: 1px 0;
+	color: white;
+	text-shadow: 2px 2px #00474f;
+	font-size: 18px;
+}
+

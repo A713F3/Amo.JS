@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amo</title>
+	<link rel="stylesheet" href="Styles/style.css">
+	<script type="text/javascript" src="Scripts/p5.js"></script>
+	<script type="text/javascript" src="Scripts/matrix.js"></script>
+	<script type="text/javascript" src="Scripts/nn.js"></script>
+	<script type="text/javascript" src="Scripts/Amo.js"></script>
+	<script type="text/javascript" src="Scripts/main.js"></script>
+</head>
+<body>
+	<div id="Header">
+		<h1>Amo</h1>
+	</div>
+	<div id="script-div"></div>
+	<button type="button" class="func_button" onclick="run_best_amo(true)">Run Best Amo</button>
+	<button type="button" class="func_button" onclick="run_best_amo(false)">Train</button>
+
+	<p>
+        <b>Speed:</b> <input id="speedSlider" type="range" min="1" max="10" value="1"> <span id="speed">1</span>
+        <br/> <b>Population Size:</b> <span id="h2_pop">0</span>
+        <br/> <b>Generation:</b> <span id="h2_gen">0</span>
+        <br/> <b>All Time Best Score:</b> <span id="h2_score">0</span>
+    </p>
+
+	
+</body>
+</html>
